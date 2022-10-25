@@ -3,7 +3,7 @@
     <h1>BiliBili-跳过互动视频 <code>v1.0</code></h1>
 	<p>
         <a href='https://github.com/SynRGB/BiliBili-PassInteractiveVideo'><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="GitHub"></a>
-	    <a href=''><img src="https://img.shields.io/badge/-GreasyFork-670000?style=flat&amp;logo=tampermonkey&amp;logoColor=white" referrerpolicy="no-referrer" alt="GreasyFork"></a>
+	    <a href='https://greasyfork.org/zh-CN/scripts/453734-bilibili-passinteractivevideo?locale_override=1'><img src="https://img.shields.io/badge/-GreasyFork-670000?style=flat&amp;logo=tampermonkey&amp;logoColor=white" referrerpolicy="no-referrer" alt="GreasyFork"></a>
         <a href=''><img src="https://img.shields.io/badge/-OpenUserJS-004796?style=flat&amp;logo=tampermonkey&amp;logoColor=white" referrerpolicy="no-referrer" alt="OpenUserJS"></a>
     </p>
 </div>
