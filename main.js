@@ -2,7 +2,7 @@
 // @name                BiliBili-PassInteractiveVideo
 // @name:zh-CN          BiliBili-跳过互动视频
 // @namespace           https://github.com/TitanRGB
-// @version             1.0
+// @version             1.1
 // @description         列表播放的时候，互动视频无法播放，而且还有33魔性的声音提示“互动视频需要在手机上观看”，这个脚本可以跳过互动视频，直接播放下一个视频。
 // @description:zh-CN   列表播放的时候，互动视频无法播放，而且还有33魔性的声音提示“互动视频需要在手机上观看”，这个脚本可以跳过互动视频，直接播放下一个视频。
 // @author              https://github.com/TitanRGB
@@ -55,7 +55,11 @@ let observer = new MutationObserver(function (mutations) {
     mutations.forEach(function () {
         // 通过增加时间间隔来避免无限回调
         if (new Date().getTime() - last_run_time > 500) {
-            main();
+            try {
+                main();
+            } catch (e) {
+                // console.log("%cBiliBili-PassInteractiveVideo: " + e, "color: #AAAAAA");
+            }
         }
     });
 });
