@@ -10,4 +10,6 @@
 
 ## 简介
 
+<img src="https://github.com/SynRGB/BiliBili-PassInteractiveVideo/raw/main/%23README/1.png" width="80%"/>
+
 列表播放的时候，互动视频无法播放，而且还有33魔性的声音提示“互动视频需要在手机上观看”，这个脚本可以跳过互动视频，直接播放下一个视频。
