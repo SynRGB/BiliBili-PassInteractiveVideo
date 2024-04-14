@@ -1,3 +1,6 @@
+> [!WARNING]
+> 新版网站已经能正确播放互动视频，因此已经不需要此脚本，自 `2022 年 11 月 29 日` (`v1.1`) 起归档，不再维护。请注意，随着网站的更新，可能会存在兼容性问题。
+
 <div align="center">
     <img src="https://github.com/SynRGB/BiliBili-PassInteractiveVideo/raw/main/%23README/icon/256.png" width="20%"/>
     <h1>BiliBili-跳过互动视频 <code>v1.1</code></h1>
